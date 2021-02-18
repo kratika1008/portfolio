@@ -1,0 +1,84 @@
+<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                </div>
+            </div>
+            {% for post in site.posts %}
+            <div class="card project-cards">
+                <div class="row">
+                    <div class="col-md-4 portfolio-item">
+                        <div class="card-body">
+                            <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 portfolio-caption">
+                        <h4 class="text-center">
+                            {{ post.title }}
+                            {% if post.company %}
+                                <p>{{ post.company}}</p>
+                            {% endif %}
+                            <p>({{ post.project-date }})</p>
+                        </h4>
+                        
+                        {% if post.award %}
+                            <i class="fa fa-trophy"></i>
+                            <strong>Award:</strong>
+                                <span>{{ post.award }}</span>
+                        {% endif %}
+                        <div class="text-muted">
+                            <ul>
+                                <li>{{ post.subtitle }}</li>
+                                <li>{{ post.result }}</li>
+                            </ul>
+                            <ul class="item-details">
+                                {% if post.principal %}
+                                <li>
+                                    <strong>
+                                        Principal:
+                                        <span class="item-parts">{{ post.principal }}</span>
+                                    </strong>
+                                </li>
+                                {% endif %}
+                                {% if post.technique %}
+                                <li>
+                                    <strong>
+                                        Technique:
+                                        <span class="item-parts">{{ post.technique }}</span>
+                                    </strong>
+                                </li>
+                                {% endif %}
+                                {% if post.framework %}
+                                <li>
+                                    <strong>
+                                        Framework:
+                                        <span class="item-parts">{{ post.framework }}</span>
+                                    </strong>
+                                </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                        <br/>
+                        <div class = "position-absolute bottom-center">
+                            {% if post.github %}
+                                <a href = {{post.github}} class="btn btn-success" target="_blank">Code</a>
+                            {% endif %}
+                            {% if post.demo %}
+                                <a href= {{post.demo}} class="btn btn-success" target="_blank">Demo</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>

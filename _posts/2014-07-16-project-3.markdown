@@ -1,0 +1,18 @@
+---
+title: Customer Churn Prediction
+subtitle: Predicted the probability for a customer to churn using Telecom company dataset from Kaggle
+result: Gained 0.826 AUC score in predicting churn and identified common reasons for customers to cancel services
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: customer_churn.png
+github: https://github.com/kratika1008/DS502_Statistics_For_Data_Science/tree/main/Customer_Churn_Prediction
+thumbnail: customer_churn-thumbnail.png
+alt: customerChurn-image-alt
+project-date: Mar 2020 - Apr 2020
+technique: Feature Engineering, Machine Learning, Data Visualization
+framework: Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn
+principal: Feature Engineering, Predictive modeling, Classification
+description: <ul> <li>Used <a href="https://www.kaggle.com/blastchar/telco-customer-churn" target="_blank">Telco Customer Churn</a> dataset from Kaggle to estimate churn rate on the skewed data</li> <li>Performed data cleansing, data exploration, feature extraction and sampling on the dataset</li> <li>Compared results of various classification models with Random Forest providing the highest AUC score of 0.826</li> <li>Visualized the data and relationship of churn rate to key features</li> <li>Summarized results and features affecting churn. Also recommended ways to reduce the churn rate</li> </ul> <br>
+
+---

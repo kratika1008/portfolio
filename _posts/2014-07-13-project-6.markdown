@@ -1,0 +1,18 @@
+---
+title: Car Review Analysis
+subtitle: Explored Kaggle dataset on Edmunds consumer car rating and review for top 5 brands and analyzed the data
+result: Using LDA, captured most frequent talked about topic in reviews and Analyzed consumer sentiments through their reviews 
+layout: default
+modal-id: 6
+date: 2014-07-13
+img: car-review.png
+thumbnail: car-review-thumbnail.png
+alt: carReview-image-alt
+github: https://github.com/kratika1008/DS595_InformationRetrieval_and_SocialWeb/tree/main/Car_Review_Analysis
+demo: https://kratika1008.github.io/
+project-date: Mar 2020 - May 2020
+technique: LDA, Sentiment Analysis, BM25 Search
+framework: Gensim, VaderSentiment Analyzer, BM25, NLTK, Pandas, Matplotlib
+principal: Topic Modeling, Review Analysis, Review Search
+description: <ul> <li>Explored Kaggle dataset on <a href="https://www.kaggle.com/ankkur13/edmundsconsumer-car-ratings-and-reviews" target="_blank">Edmunds consumer car rating and review</a> for top 5 brands and analyzed the data</li> <li><strong>BM25 Review Search -</strong> <ul><li>Implemented a search engine using BM25 that will fetch the most relevant reviews to the given user query</li> <li>Okapi BM25 is a ranking function used to rank documents of the data set based on the relevance to a given query</li></ul></li> <li><strong>Review Sentiment Analysis -</strong> <ul> <li>Performed analysis on Sentiment Review text using VaderSentiment and evaluated a better rating for the rating.</li></ul></li> <li><strong>LDA Topic Modelling -</strong> <ul> <li>Used LDA Multicore and LDA Mallet from genism library to generate topics.</li> <li>LDA Mallet performed significantly faster, however in our case, we got better results with LDA multicore. The topics were well separated.</li></ul></li> <li><strong>Quick Tags -</strong> <ul> <li>Generated quick tags (Bigrams & Trigrams) for each Car Model that provide a summary of the model in few words</li> <li>Helped companies in identifying improvement areas to provide better customer experience</li></ul></li> </ul> <br>
+---

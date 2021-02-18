@@ -1,0 +1,18 @@
+---
+title: Search Engine - Page Rank
+subtitle: Crawled through web-pages and processed text to extract entire web network
+result: Calculated Page Rank of various web-pages using the PageRank Algorithm
+layout: default
+modal-id: 7
+date: 2014-07-12
+img: pagerank.png
+thumbnail: pagerank-thumbnail.png
+alt: pagerank-image-alt
+github: https://github.com/kratika1008/DS595_InformationRetrieval_and_SocialWeb/tree/main/Homework/Homework_3
+project-date: Feb 2020 - Mar 2020
+technique: Web crawling, Text-processing, Page Rank
+framework: BeautifulSoup (BS4), NLTK, Numpy
+principal: Natural Language Processing, Page-Rank Algorithm
+description: <ul> <li>Used BeautifulSoup library to crawl through a network of webpages</li> <li>Calculated Page Rank of various web-pages using the Page Rank Algorithm</li> <li>For a search query, relevant web-pages are suggested based on their page rank</li> </ul> <br>
+
+---

@@ -1,0 +1,18 @@
+---
+title: Skewed Dataset Join Optimization
+subtitle: Optimized the join between two large and distributed datasets, out of which one dataset is highly skewed on few join keys
+result: Saved up to 60% time using the optimized join instead of a single re-partition join
+layout: default
+modal-id: 5
+date: 2014-07-14
+img: skewed_join.png
+thumbnail: skewed_join-thumbnail.png
+alt: skewedJoin-image-alt
+github: https://github.com/kratika1008/DS503_Big_Data_Management/tree/main/Projects/Final_Project
+project-date: Oct 2019 - Dec 2019
+technique: Apache Spark, Spark-Dataframe
+framework: Java, Scala, Spark
+principal: Big Data Management, Map-Reduce
+description: <ul> <li>Optimized the join between two distributed datasets out of which one is highly skewed over few keys</li> <li>Used a combination of Re-partition join and Broadcast join to save up to 60% time in the join</li> <li>Also, identified skewness and all skewed keys from the dataset</li> </ul> <br>
+
+---

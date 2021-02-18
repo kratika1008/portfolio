@@ -1,0 +1,20 @@
+---
+title: Visual Question Answering
+subtitle: Deep Learning based model to provide natutal language answer to a natural language question given an image
+result: Achieved 64% accuracy on Image COCO dataset in selecting the topmost answer amongst the voted answers lists
+layout: default
+award: Won Best Project award for Deep Learning class final project
+modal-id: 1
+date: 2014-07-18
+img: vqa.png
+thumbnail: vqa-thumbnail.png
+alt: VQA-image-alt
+github: https://github.com/kratika1008/DS541_DeepLearning/tree/master/Visual_Question_Answering
+demo: https://www.youtube.com/watch?v=PDTpBWwNxZs&t
+project-date: Mar 2020 - May 2020
+technique: ResNet-50, Faster-RCNN, Glove-Embedding, LSTM
+framework: Keras, Tensorflow, NLTK, Numpy, Pandas, Matplotlib
+principal: Object Detection, Natural Language Processing
+description: <ul> <li>Deep Learning based model to provide natutal language answer to a natural language question given an image.</li> <li>Achieved 64% accuracy on Image COCO dataset in selecting the topmost answer amongst the voted answers lists</li> <li><strong>Image Processing -</strong> <ul><li>Extracted Image features using pre-trained ResNet-50 model.</li> <li>Used tensorflow Object Detection API to extract Region Proposal Network (RPN) Layer features.</li></ul></li> <li><strong>Question & Answer Processing -</strong> <ul> <li>Used pre-trained Glove-Embedding to vectorize questions and answers respectively</li></ul></li> <li><strong>Combined Model -</strong> <ul> <li>Created combined model to trained image and question features using a combination of CNN and LSTM</li> <li>Trained model using Google Cloud Platform and Google Colab</li></ul></li></ul> <br>
+
+---

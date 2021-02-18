@@ -1,0 +1,18 @@
+---
+title: Distracted driver Activity Recognition
+subtitle: Detect if the car driver is driving safe or performing any activity that might result in a accident
+result: Achieved ~94% accuracy in correctly predicting driver's activities using image dataset
+layout: default
+modal-id: 8
+date: 2014-07-11
+img: distracted-driver.png
+thumbnail: distracted-driver-thumbnail.png
+alt: distractedDriver-image-alt
+github: https://github.com/kratika1008/CS539_MachineLearning/tree/main/Distracted_Driver_Activity_Detection
+project-date: Sep 2019 - Dec 2019
+technique: Image Processing, Machine Learning Algorithms, VGG-16, Clustering
+framework: Scikit-learn, Keras, Open-CV (cv2), Numpy, Pandas, Matplotlib
+principal: Image Feature Extraction, Image Classification
+description: <ul> <li>Used <a href="https://www.kaggle.com/c/state-farm-distracted-driver-detection/data" target="_blank">State Farm Distracted Driver Detection</a> dataset from Kaggle which includes images of drivers in car</li> <li>Goal is to detect if the driver is driving safe or performing any activity that might cause an accident</li> <li>Classified images among 10 various classes, driving safe is one of them</li> <li><strong>Image Pre-processing -</strong> <ul><li>Resized images to 64x64 RGB image</li><li>Used various techniques to extract image features like, Pixel, HOG feature descriptor, Sobel Edge descriptor, k-means clustering</li></ul></li> <li><strong>Classification Algorithms -</strong><ul> <li>Used Machine Learning algorithms like Decision Tree, Support Vector Machine, Random Forest, 2-Layer Neural Network, CNN VGG-16 architechture</li></ul></li> <li>Achieved ~94% accuracy using VGG-16 in correctly predicting driver's activities</li></ul> <br>
+
+---

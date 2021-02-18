@@ -1,0 +1,65 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>{{ post.title }}</h3>
+                            {% if post.company %}
+                                <h4>{{post.company}}</h4>
+                            {% endif %}
+                            <strong>({{ post.project-date }})</strong>
+                            <div>
+                                {% if post.github %}
+                                    <a href = {{post.github}} class="btn btn-success" target="_blank">Code</a>
+                                {% endif %}
+                                {% if post.demo %}
+                                    <a href= {{post.demo}} class="btn btn-success" target="_blank">Demo</a>
+                                {% endif %}
+                            </div>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            
+                            {% if post.award %}
+                                <i class="fa fa-trophy"></i>
+                                    <strong>Award:</strong>
+                                        <span>{{ post.award }}</span>
+                            {% endif %}
+                            
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong>
+                                        Principal:
+                                        <span class="item-parts">{{ post.principal }}</span>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Technique:
+                                        <span class="item-parts">{{ post.technique }}</span>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Framework:
+                                        <span class="item-parts">{{ post.framework }}</span>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <div class="text-justify">{{ post.description }}</div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

@@ -1,0 +1,19 @@
+---
+title: Entity Linking (Capstone Project)
+subtitle: Language model to disambiguate entities for the Entity Linking process
+company: Basis Technology
+result: Explored AIDA-CoNLL dataset to develop a novel model using graphs and CNN to perform disambiguation more accurately
+award: Received Best Teamwork Award for the Entity Linking capstone project
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: ner.png
+thumbnail: ner-thumbnail.png
+alt: entityLinking-image-alt
+project-date: Sep 2020 - Dec 2020
+technique: CNN, LSTM, Word2Vec Embedding
+framework: Tensorflow, Keras, NLTK, SpaCy, Numpy, Pandas
+principal: Named Entity Recognition, Entity Linking, Natural Language Processing
+description: <ul> <li>The goal of the project was to improve the Entity Disambiguation task of Entity Linking process</li> <li>Read several papers in the field of Named Entity Recognition and tried implementing state-of-the-art paper DeepType model</li> <li>Explored AIDA-CoNLL dataset to develop a novel model using graphs and CNN to perform disambiguation more accurately</li> </ul> <br>
+
+---

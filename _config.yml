@@ -1,0 +1,19 @@
+url: https://kratika1008.github.io
+baseurl: ""
+
+# Site settings
+title: KRATIKA AGRAWAL
+email: your-email@domain.com
+description: "Kratika Agrawal is a student of Worcester Polytechnic Institute pursuing Masters degree in Data Science."
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/kratika-agrawal-wpi/
+  - title: github
+    url: https://github.com/kratika1008
+
+
+# # Build settings
+# markdown: kramdown
+# permalink: pretty

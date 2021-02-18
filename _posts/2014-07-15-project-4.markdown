@@ -1,0 +1,19 @@
+---
+title: Predicting Patient’s Survival
+subtitle: As part of Women in Data Science competition on Kaggle, predicted the chances of survival for a patien using first 24 hours ICU data
+company: Kaggle Competition
+result: Achieved 0.909 AUC-ROC curve score in making accurate predictions
+award: Ranked top 10% in WiDS Datathon 2020, Kaggle (2nd Runner-Up among WPI teams)
+layout: default
+modal-id: 4
+date: 2014-07-15
+img: wids-thumbnail.png
+thumbnail: wids-thumbnail.png
+alt: wids-image-alt
+project-date: Jan 2020 - Feb 2020
+technique:  Sampling, Machine Learning Classification Algorithm, Data Visualization
+framework: Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn
+principal: Feature Engineering, Predictive modeling, Classification
+description: <ul> <li>As part of Women in Data Science competition on Kaggle, predicted the chances of survival for a patien using first 24 hours ICU data</li> <li>Extracted important features among 185 total numerical and categorical features using Random Forest</li> <li>Trained the dataset using Light-GBM with Stratified-KFold of 5 folds and tuned hyper-parameters using grid-search</li> <li>Achieved 0.909 AUC-ROC curve score in making accurate predictions of patient's survival</li> </ul> <br>
+
+---
