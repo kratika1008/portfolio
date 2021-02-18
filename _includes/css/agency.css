@@ -885,3 +885,8 @@ body {
 .item-details .item-parts {
     color: #{{ site.data.template.color.primary }};
 }
+
+
+.fa-trophy {
+    color: #{{ site.data.template.color.primary }};
+}
