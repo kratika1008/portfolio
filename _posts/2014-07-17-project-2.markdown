@@ -14,6 +14,6 @@ project-date: Sep 2020 - Dec 2020
 technique: CNN, LSTM, Word2Vec Embedding
 framework: Tensorflow, Keras, NLTK, SpaCy, Numpy, Pandas
 principal: Named Entity Recognition, Entity Linking, Natural Language Processing
-description: <ul> <li>The goal of the project was to improve the Entity Disambiguation task of Entity Linking process</li> <li>Read several papers in the field of Named Entity Recognition and tried implementing state-of-the-art paper DeepType model</li> <li>Explored AIDA-CoNLL dataset to develop a novel model using graphs and CNN to perform disambiguation more accurately</li> </ul> <br>
+description: <ul> <li>The goal of the project was to improve the Entity Disambiguation task of Entity Linking process</li> <li>Developed a novel model using graphs and CNN to perform disambiguation more accurately using AIDA-CoNLL dataset</li> <li>Actively participated in brain-storming sessions with company’s mentors and product manager</li> <li>Read several papers in the field of Named Entity Recognition and tried implementing state-of-the-art paper DeepType model</li> </ul> <br>
 
 ---
