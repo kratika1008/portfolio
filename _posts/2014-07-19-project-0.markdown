@@ -1,7 +1,7 @@
 ---
 title: Research - Conditional Text Sequence generation
-subtitle: Developing model to generate Text Sequences based on multiple conditions
-result: Goal is to augment conditional texts to train model for depression detection
+subtitle: Developing new state-of-the-art model to generate conditional Text Sequences
+result: The goal is to use the sequence generator to augment conditional texts to train model for diagnostic prediction
 layout: default
 modal-id: 0
 date: 2014-07-19
@@ -9,9 +9,9 @@ img: dr.png
 thumbnail: dr-thumbnail.png
 alt: DR-image-alt
 project-date: Sep 2020 - Present
-technique: CNN, LSTM, GANs
+technique: Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM), Generative Adversarial Networks(GANs)
 framework: Tensorflow, NLTK, Numpy
-principal: Generative Adversarial Networks, Text Generation, Reinforcement Learning
-description: <ul> <li>Augmenting conditional text sequences for detecting depression using Reinforcement Learning, Recurrent Neural Network and Generative Adversarial Networks</li> <li>Continuously doing literature review, exploring and evaluating related work in the field of sequence generation</li> <li>Developing advanced model to generate sequences based on added condition</li> </ul> <br>
+principal: Deep Learning, Reinforcement Learning, Text Generation
+description: <ul> <li>Developing new state-of-the-art model to generate conditional text sequences using Reinforcement Learning, Recurrent Neural Network and Generative Adversarial Networks</li> <li>The goal of the project is to use the sequence generator to augment conditional text sentences to train model for diagnostic prediction</li> <li>Continuously doing literature review and evaluating related work in the field of sequence generation</li> </ul> <br>
 
 ---
