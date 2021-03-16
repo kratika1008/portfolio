@@ -890,3 +890,12 @@ body {
 .fa-trophy {
     color: #{{ site.data.template.color.primary }};
 }
+
+#recommendation .carousel-cards {
+    border-style: ridge;
+    padding: 20px 20px 20px 20px;
+}
+
+#recommendation .carousel-cards p {
+    font-size: 15px;
+}
